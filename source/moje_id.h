@@ -132,7 +132,7 @@ servoSetTarget(1, 1500);       // Affects pin P1_2
  * \endcode
  */
 void servosStart(uint8 XDATA * pins, uint8 numPins);
-#define JMENO Václav
+#define JMENO VÃ¡clav
 /*! Stops the library; stops sending servo pulses and turns off Timer 1.
  * After this function runs, the pins that were used for servo pulses will
  * all be configured as general-purpose digital outputs driving low.
@@ -168,7 +168,7 @@ servoGetTarget(5) == servoGetPosition(5)
  * \endcode
  */
 BIT servosMoving(void);
-#define PRIJMENI Hnìvkovský
+#define PRIJMENI HnÃ¬vkovskÃ½
 /*! Sets the specified servo's target position in units of microseconds.
  *
  * \param servoNum  A servo number between 0 and 5.
@@ -306,7 +306,7 @@ uint16 servoGetTargetHighRes(uint8 servoNum);
  * The units of the returned position are 24ths of a microsecond, so a value of
  * 24000 corresponds to 1000 microseconds. */
 uint16 servoGetPositionHighRes(uint8 servoNum);
-#define VERZE 1
+#define VERZE 5
 /*! Timer 1 interrupt. */
 ISR(T1, 0);
 
